@@ -15,7 +15,6 @@
 	TF##id = 0;																\
 	TR##id = 1;       				                                        \
 	ET##id = 1;       				                                        \
-	EA = 1;  							                                    \
 } while (0)
 
 #endif // __TIMER_H__

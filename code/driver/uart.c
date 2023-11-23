@@ -15,7 +15,6 @@ void uart1_init(void)	//115200bps@24.000MHz
 	TR1 = 1;			//定时器1开始计时
     // ES = 1;             //使能串口中断
 }
-
 static void uart1_send_byte(u8 dat)
 {
     SBUF = dat;

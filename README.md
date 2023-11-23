@@ -17,5 +17,8 @@ sudo apt install -y cppcheck sdcc cmake
 ### 串口工具 
 
 ```
-apt install cutecom 
+sudo apt install cutecom 
+
+# 使用
+cutecom
 ```

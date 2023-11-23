@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 set(CMAKE_TOOLCHAIN_FILE "toolchain.cmake")
 project("demo")
 
-include_directories(code code/driver code/tasks)
+include_directories(code code/driver code/common code/tasks)
 
 file(GLOB_RECURSE ALL_LIBRIRY_SRCS "code/*.c")
 
