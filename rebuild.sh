@@ -4,7 +4,7 @@ if [ ! -d "build" ]; then
 fi
 
 echo "============================================================="
-cppcheck --enable=style,unusedFunction --force ./src
+cppcheck --enable=style,unusedFunction --force ./code
 echo "============================================================="
 
 

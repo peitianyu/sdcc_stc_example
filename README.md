@@ -13,3 +13,9 @@ sudo apt install -y cppcheck sdcc cmake
 ```
 ./rebuild.sh
 ```
+
+### 串口工具 
+
+```
+apt install cutecom 
+```
