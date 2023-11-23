@@ -10,6 +10,6 @@ echo "============================================================="
 
 cd build && cmake .. && make -j6
 
-../stc8prog/./stc8prog  -p /dev/ttyUSB0 -e -f servo_ctl.hex
+../stc8prog/./stc8prog  -p /dev/ttyUSB0 -e -f demo.hex
 
 cd ..
